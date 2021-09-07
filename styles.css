@@ -71,7 +71,7 @@
   #output table,
   th,
   td {
-    padding: 0.2rem;
+    padding: 0rem;
     color: var(--dark-pink);
     background-color: var(--faint-pink);
     border: 2px solid var(--dark-pink);
