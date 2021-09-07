@@ -1,0 +1,94 @@
+:root {
+    --dark-pink: #11052C;
+    --faint-pink: cornsilk;
+  }
+  * {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    height: 100%;
+    background-image: url(./Images/make.png);
+    /* Center and scale the image nicely */
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .section {
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--dark-pink);
+  }
+  h1,
+  p {
+    color: cornsilk;
+  }
+  .label {
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--faint-pink);
+  }
+  
+  input {
+    width: 100%;
+    padding: 1rem;
+    height: 50px;
+    display: block;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color: var(--faint-pink);
+    color: var(--dark-pink);
+    font-weight: bold;
+  }
+  
+  .cash-input {
+    display: none;
+  }
+  .change-returned {
+    display: none;
+  }
+  .error-Message {
+    padding-top: 1rem;
+    color: cornsilk;
+  }
+  #output {
+    margin: 1rem 0;
+    color: cornsilk;
+  }
+  
+  #output table,
+  th,
+  td {
+    padding: 0.2rem;
+    color: var(--dark-pink);
+    background-color: var(--faint-pink);
+    border: 2px solid var(--dark-pink);
+    border-collapse: collapse;
+  }
+  .notes {
+    background-color:cornsilk;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    word-wrap: break-word;
+  }
+  
