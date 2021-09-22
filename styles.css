@@ -1,10 +1,11 @@
 :root {
-    --dark-pink: #11052C;
-    --faint-pink: cornsilk;
+    --dark-pink: #D4B499;
+    --faint-pink: black;
   }
   * {
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
+    
   }
   body {
     margin: 0;
@@ -27,7 +28,7 @@
   }
   h1,
   p {
-    color: cornsilk;
+    color: black;
   }
   .label {
     font-size: 1.3rem;

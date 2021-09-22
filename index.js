@@ -43,17 +43,17 @@ checkButton.addEventListener('click', ()=>{
     if(billAmountValue>0 && cashGivenValue>0){
 
         if(!Number.isInteger(cashGivenValue)){
-            errorShow("Enter valid amount in cash given field");
+            errorShow("Enter valid amount in cash given field. Asa Kasa Chalel re ? ");
             return;
         }
         if(billAmountValue > cashGivenValue){
-            errorShow("Cash is less than bill, please enter right amount");
+            errorShow("Cash is less than bill, please enter right amount. Manje Auur paiisa laane ka re baba Nai toh kal aaneka ! ");
             return;
         }
         //if input valid calculate no. of notes
         calculateNotes(billAmountValue, cashGivenValue);
     } else{
-        errorShow("Enter valid bill amount and cash given to continue");
+        errorShow("Enter valid bill amount and cash given to continue. Ae Bhai Ae, time khoti karu nakka haan!! ");
         }
 })
 
