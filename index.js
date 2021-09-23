@@ -15,7 +15,7 @@ const checkButton = document.querySelector("#check-button");
 
 const Notes = document.querySelectorAll(".notes");
 
-const notesArray = [2000, 500, 100, 20, 10, 5, 1];
+const notesArray = [2000, 500, 100,50,  20, 10, 5, 2, 1];
 
 
 //if bill amount is filled, display cash given input field
@@ -27,7 +27,7 @@ nextButton.addEventListener('click', ()=>{
         cashGivenDiv.style.display = "block";
     }
     else{
-        errorShow("Enter valid bill amount");
+        errorShow("Enter valid bill amount, Ae time khoti karu nakaa haan!!");
     }
 } )
 
@@ -62,7 +62,7 @@ function calculateNotes(bill, cash){
     let returnAmount = cash-bill;
     
     if(returnAmount<1){
-        errorShow("No amount should be returned");
+        errorShow("No amount should be returned, sab hisaab barabar che!");
         return;
     }
     changeReturnedDiv.style.display = "block";
